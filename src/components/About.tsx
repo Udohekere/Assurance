@@ -50,10 +50,10 @@ export default function About() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl p-12 text-white text-center">
-          <Briefcase className="mx-auto mb-6 text-blue-400" size={56} />
-          <p className="text-3xl font-bold italic">
-            "If you fail to plan, you plan to fail."
+        <div className="bg-white rounded-2xl p-12 text-center">
+          <Briefcase className="mx-auto mb-6 text-blue-600" size={56} />
+          <p className="text-3xl font-bold italic text-gray-900">
+            If you fail to plan, you plan to fail
           </p>
         </div>
       </div>
