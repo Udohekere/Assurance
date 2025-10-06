@@ -30,6 +30,9 @@ export default function Navigation() {
             <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Services
             </button>
+            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+              Contact
+            </button>
             <a href="https://calendly.com/info-assurancehill" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-all font-medium shadow-sm hover:shadow-md">
               Schedule Consultation
             </a>
@@ -54,6 +57,9 @@ export default function Navigation() {
             </button>
             <button onClick={() => scrollToSection('services')} className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium py-2">
               Services
+            </button>
+            <button onClick={() => scrollToSection('contact')} className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium py-2">
+              Contact
             </button>
             <a href="https://calendly.com/info-assurancehill" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
               Schedule Consultation
