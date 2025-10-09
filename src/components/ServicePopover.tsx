@@ -8,6 +8,7 @@ interface ServicePopoverProps {
   deliverables?: string;
   impact?: string;
   coreAreas?: string[];
+  iconColor?: string;
 }
 
 export default function ServicePopover({
@@ -16,7 +17,8 @@ export default function ServicePopover({
   howWeWork,
   deliverables,
   impact,
-  coreAreas
+  coreAreas,
+  iconColor = 'text-blue-600'
 }: ServicePopoverProps) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,7 +28,7 @@ export default function ServicePopover({
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
         onClick={() => setIsOpen(!isOpen)}
-        className="ml-2 text-blue-600 hover:text-blue-700 transition-colors"
+        className={`ml-2 ${iconColor} hover:opacity-80 transition-colors`}
         aria-label="More information"
       >
         <Info size={20} />

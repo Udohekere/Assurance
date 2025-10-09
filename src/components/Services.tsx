@@ -381,10 +381,10 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-12 text-white mb-12">
+          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-12 text-white mb-12 relative">
             <h3 className="text-3xl font-bold mb-8 text-center">Courses</h3>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
                 <Brain className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   AI-GRC Masterclass
@@ -399,13 +399,14 @@ export default function Services() {
                     ]}
                     deliverables="Workbooks, templates, risk registers, control catalogs, assessment frameworks, and a co-branded Certificate of Completion."
                     impact="Graduates leave with a blueprint to operationalize AI compliance, mitigate risk, and enable innovation with confidence."
+                    iconColor="text-red-500"
                   />
                 </h4>
                 <p className="text-blue-100 leading-relaxed">
                   A 12-session program covering AI governance, compliance frameworks, labs, and certifications.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
                 <TrendingUp className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   AI-GRC Engineering
@@ -420,13 +421,14 @@ export default function Services() {
                     ]}
                     deliverables="Reference architectures, implementation playbooks, control validation scripts, and deployment templates."
                     impact="Enables organizations to hardwire transparency, accountability, and trust into every AI product release."
+                    iconColor="text-red-500"
                   />
                 </h4>
                 <p className="text-blue-100 leading-relaxed">
                   A 12-session program covering engineering automation and GRC into MLOps process for AI tools and technologies.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
                 <Award className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   Certification Courses
@@ -441,13 +443,14 @@ export default function Services() {
                     ]}
                     deliverables="Instructor-led sessions, live Q&A, practice exams, and certification strategy guides."
                     impact="Builds credentialed cybersecurity leaders ready to drive compliance, manage risk, and lead secure digital transformation initiatives."
+                    iconColor="text-red-500"
                   />
                 </h4>
                 <p className="text-blue-100 leading-relaxed">
                   Professional certification preparation programs.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
                 <Shield className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   Cybersecurity Risk Management Construct
@@ -462,6 +465,7 @@ export default function Services() {
                     ]}
                     deliverables="RMF toolkit (templates, control libraries, workflow maps), sample ATO package, and continuous monitoring dashboard framework."
                     impact="Streamlines compliance lifecycles, accelerates ATO approvals, and builds a culture of continuous readiness across federal or defense programs."
+                    iconColor="text-red-500"
                   />
                 </h4>
                 <p className="text-blue-100 leading-relaxed">
