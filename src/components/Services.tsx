@@ -381,10 +381,10 @@ export default function Services() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-12 text-white mb-12 relative">
+          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-12 text-white mb-12 relative z-0">
             <h3 className="text-3xl font-bold mb-8 text-center">Courses</h3>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative">
                 <Brain className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   AI-GRC Masterclass
@@ -406,7 +406,7 @@ export default function Services() {
                   A 12-session program covering AI governance, compliance frameworks, labs, and certifications.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative">
                 <TrendingUp className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   AI-GRC Engineering
@@ -428,7 +428,7 @@ export default function Services() {
                   A 12-session program covering engineering automation and GRC into MLOps process for AI tools and technologies.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative">
                 <Award className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   Certification Courses
@@ -450,7 +450,7 @@ export default function Services() {
                   Professional certification preparation programs.
                 </p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative z-10">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 relative">
                 <Shield className="mb-4" size={40} />
                 <h4 className="text-2xl font-bold mb-3 flex items-center">
                   Cybersecurity Risk Management Construct

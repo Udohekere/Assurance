@@ -23,7 +23,7 @@ export default function ServicePopover({
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative inline-block">
+    <div className="relative inline-block z-[100]">
       <button
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
@@ -36,9 +36,10 @@ export default function ServicePopover({
 
       {isOpen && (
         <div
-          className="absolute z-50 w-96 bg-white rounded-xl shadow-2xl border-2 border-blue-100 p-6 left-0 top-8"
+          className="absolute z-[9999] w-96 bg-white rounded-xl shadow-2xl border-2 border-blue-100 p-6 left-0 top-8"
           onMouseEnter={() => setIsOpen(true)}
           onMouseLeave={() => setIsOpen(false)}
+          style={{ position: 'absolute' }}
         >
           <button
             onClick={() => setIsOpen(false)}
