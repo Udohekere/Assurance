@@ -144,6 +144,78 @@ export default function Services() {
           </div>
         </div>
 
+        <div id="management" className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Management Consulting</h2>
+            <p className="text-2xl text-gray-700">Strategic Business Transformation</p>
+          </div>
+
+          <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl">
+            <img
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+              alt="Management consulting"
+              className="w-full h-80 object-cover"
+            />
+          </div>
+
+          <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all mb-8">
+            <div className="flex items-start mb-6">
+              <Award className="text-blue-600 mr-4 flex-shrink-0" size={48} />
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">GRC Program Design & Implementation</h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Build and mature enterprise GRC programs with integrated risk, audit, and compliance management frameworks. Develop a governance, risk, and compliance (GRC) program that strengthens decision-making, simplifies audits, and scales with your organization's growth.
+                </p>
+
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Overview</h4>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Our GRC Program Design & Implementation service helps organizations establish a structured, business-aligned compliance ecosystem. We design and operationalize frameworks that connect policies, controls, risk assessments, and reporting under a unified governance model — ensuring your compliance activities directly support strategic objectives.
+                </p>
+
+                <h4 className="text-xl font-bold text-gray-900 mb-3">How we work</h4>
+                <ul className="space-y-2 text-gray-700 mb-4">
+                  <li className="flex items-start">
+                    <CheckCircle className="text-blue-600 mr-2 flex-shrink-0 mt-1" size={20} />
+                    <span>Assess your current governance and risk maturity against leading frameworks (NIST, ISO, SOC, PCI, HIPAA, CMMC)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="text-blue-600 mr-2 flex-shrink-0 mt-1" size={20} />
+                    <span>Define clear roles, accountability models, and governance committees</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="text-blue-600 mr-2 flex-shrink-0 mt-1" size={20} />
+                    <span>Harmonize control frameworks to eliminate redundancy and increase efficiency</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="text-blue-600 mr-2 flex-shrink-0 mt-1" size={20} />
+                    <span>Build workflows for issue tracking, audit readiness, and evidence management</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="text-blue-600 mr-2 flex-shrink-0 mt-1" size={20} />
+                    <span>Implement dashboards and metrics for real-time visibility into risk and compliance posture</span>
+                  </li>
+                </ul>
+
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Deliverables</h4>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Comprehensive GRC operating model, control library, risk register, policies and procedures, reporting templates, and a 6–12-month roadmap for continuous improvement.
+                </p>
+
+                <h4 className="text-xl font-bold text-gray-900 mb-3">Impact</h4>
+                <p className="text-gray-700 leading-relaxed">
+                  Clients achieve faster audits, consistent risk visibility, and a governance structure that turns compliance from a cost center into a strategic enabler of trust, resilience, and business growth.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <button onClick={scrollToContact} className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-all font-semibold shadow-lg">
+              Book a Consultation
+            </button>
+          </div>
+        </div>
+
         <div id="training" className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Training Services</h2>

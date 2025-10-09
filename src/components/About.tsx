@@ -8,7 +8,7 @@ export default function About() {
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">Our Story</h1>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-700 mb-6 leading-relaxed">
-              AssuranceHill Consulting is a boutique firm specializing in Governance, Risk, and Compliance (GRC) with a forward-looking approach to Artificial Intelligence, Cloud, and Cybersecurity. We help organizations navigate complex compliance frameworks while equipping teams with practical training to stay ahead.
+              AssuranceHill Consulting is a boutique firm specializing in Governance, Risk, and Compliance (GRC) with a forward-looking approach to Artificial Intelligence, Cloud, and Cybersecurity. We help organizations navigate complex compliance frameworks while equipping teams with practical training to stay ahead. AssuranceHill Consulting is a boutique firm specializing in Governance, Risk, and Compliance (GRC) with a strong focus on AI adoption and cybersecurity frameworks.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed">
               We help leaders convert compliance into trust and growth. Our team blends deep framework expertise (NIST, ISO, SOC, PCI, HIPAA) with pragmatic delivery so your audits, customers, and board get what they need—without slowing the business.
